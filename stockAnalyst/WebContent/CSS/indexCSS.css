@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/*背景部分*/
+#backgroundArea-01{
+	width: 100%;
+	height: 10%;
+	background-color: #25E13E;
+	position:absolute;
+	top:0;
+	left: 0;
+	border: 3px solid black;
+}
+#backgroundArea-02{
+	
+	
+	
+	
+}
+.backContent{
+	font-size: 30px;
+}
+/*标题栏*/
+.title{
+	text-align: center;
+	border-radius: 0 0 50% 50%;
+	width: 100%;
+	height: 20%;
+	background-color: #25E13E;
+	border: 1px solid #25E13E;
+
+}
+#mainTitle{
+	font-size: 30px;
+	margin: 2% 20% 0 20%;
+	width:60%;
+	height: 20%;
+	color: rgba(255,255,255,0.95)
+}
+#subTitle{
+	color: rgba(255,255,255,0.8);
+	font-size:12px;
+	margin: 0 20% 20px 20%;
+	padding-top: 3%;
+	width: 60%;
+	height: 20%;
+}
+#logoArea{
+	width: 15%;
+	height: 50%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+/*用户输入区*/
+.inputArea{
+	width: 90%;
+	height: 75px;
+	margin: 10px auto 0px;
+	border:3px solid #25E13E;
+	border-radius: 10px;
+	font-size: 20px;
+}
+#formArea{
+	line-height: 75px;
+	vertical-align: center;
+	margin: 0 0 0 10px;
+}
+
+/*信息展示区*/
+.mainDiv{
+	/*border:3px solid #25E13E;*/
+	border-radius: 10px;
+	width: 90%;
+	margin: 60px auto 0px;
+	
+}
+.firstDiv {
+	border:3px solid #25E13E;
+	border-radius: 10px;
+	width: 45%;
+	height: 80px;
+	overflow: auto;
+	float:left;
+}
+.secondDiv{
+	border:3px solid #25E13E;
+	border-radius: 10px;
+	width: 45%;
+	margin-left: 55%;
+	height: 80px;
+	overflow: auto;
+}
+
+/*信息展示区之文字*/
+.subResultTitle{
+	padding: 0;
+	margin:5px 0 0 10px;
+	font-size: 15px;
+}
+.subResultContent{
+	float: right;
+	padding: 0;
+	margin: 20px 10px 0 10px;
+	font-weight: bold;
+	font-size: 25px;
+}
+.subTipContent{
+	float: right;
+	padding: 0;
+	margin: 20px 10px 0 10px;
+	font-size: 14px;
+}
+.riskList{
+	float: right;
+	padding: 0;
+	width: 60%;
+	margin: 20px 10px 0 10px;
+}
+#yieldContent{
+	width: 60%;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+/*信息展示区之柱状图*/
+#graphArea{
+	border:3px solid #25E13E;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+.subResultContentInGraph{
+	padding: 0;
+	float: right;
+	margin: 0 10px 0 0;
+	font-weight: bold;
+	font-size: 25px;
+}

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*背景部分*/
+#backgroundArea-01{
+	width: 100%;
+	height: 10%;
+	background-color: #25E13E;
+	position:absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	border: none;
+}
+#backgroundArea-02{
+	width: 100%;
+	height: 20%;
+	background-color: #25E13E;
+	border-radius: 0 0 50% 50%;
+	position:absolute;
+	top: 10%;
+	left: 0;
+	right: 0;
+	border: none;
+}
+
+/*标题栏*/
+#title {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	position:absolute;
+	top: 32%;
+	width: 100%;
+}
+p{
+	font-size: 30px;
+}
+.titleContent {
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	color: #25E13E;
+}
+#formArea{
+	margin-top: 10%;
+}
+#sureButton {
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	background-color: rgba(37,225,62,0.5);
+	border: none;
+}
+#logoArea{
+	width: 15%;
+	height: 65%;
+	margin-left: 43%;
+}

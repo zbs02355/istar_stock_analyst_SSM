@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 将Mapper与dao绑定 -->
+<mapper namespace="dao.stockDao">
+    <!-- 根据名称查询公司基本信息 -->
+    <select id="selectInfoByCompanyName" resultType="pojo.CompanyInfo" parameterType="map">
+        SELECT * FROM companyInfo WHERE companyName = #{companyName}
+    </select>
+    
+    <!-- 查询所有公司名称 -->
+    <select id="selectAllCompany" resultType="pojo.CompanyInfo">
+        SELECT companyName FROM companyinfo GROUP BY companyName
+    </select>
+</mapper>

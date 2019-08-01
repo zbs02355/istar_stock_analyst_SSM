@@ -17,8 +17,9 @@
 ---
 1. 打开此目录下的`stockFullDB.sql`文件，导入数据库和数据
 2. 将`stockAnalyst`导入到eclipse中
-3. 将项目添加到Tomcat服务器中
-4. 启动服务器，在浏览器地址栏中输入`http://localhost:Tomcat端口号/stockAnalyst`即可访问
+3. 修改`stockAnalyst/src/applicationContext.xml`文件中第18行的信息，将数据库连接的密码换成你自己的密码
+4. 将项目添加到Tomcat服务器中
+5. 启动服务器，在浏览器地址栏中输入`http://localhost:Tomcat端口号/stockAnalyst`即可访问
 
 ### 线上版本说明
 ---
